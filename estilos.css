@@ -1,0 +1,270 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+        
+}
+
+a:link {color: #f026c4; text-decoration: none;}
+a:hover {color: #000; border-bottom: 1px dashed;}
+a:visited {color: #f026c4; text-decoration: none;}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background: linear-gradient(213.78deg, #F0D026 24.83%, #78E6DF 83.03%);
+    min-height: 100vh;
+}
+
+#main {
+    flex-basis: 50%;
+    width: 900px;
+    height: auto;
+    margin: 80px auto 120px auto;
+        
+}
+
+
+.contenedor-text{
+    color: #000;
+    }
+
+.volanta {
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+#title {
+    margin: 150px 0 50px 0;
+    font-size: 78px;
+    font-weight: 800;
+    line-height: 1.1em;
+}
+
+.subtitle {
+    font-size: 52px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+#tribute-info {
+
+    display: flex;
+    width: 900px;
+    align-items: flex-start;
+
+}
+
+.copete {
+    display: flex;
+    flex-direction: column;    
+    gap: 20px;
+    width: auto;
+
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    margin-right: 30px;
+    
+}
+
+
+
+.div-img-andy {        
+    width: auto;
+    
+
+}
+.div-img-andy img {
+    width: 100%;
+    height: auto;    
+}
+
+.main-text {
+    width: 605px;
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+#img-div {
+    width: 605px;
+    margin: 30px 0 30px 0;
+}
+
+#image { 
+    width: 100%;
+    display: block;
+    filter: drop-shadow(1px 2px 5px rgba(0, 0, 0, 0.25));
+}
+
+#img-caption {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    
+}
+
+.cierre {
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 40px;
+    background: rgb(255, 114, 208);
+    padding: 10px 0;
+}
+
+#tribute-link {
+    display: inline-block;
+    width: 100px;
+    padding: 5px 0;
+    font-size: 15px;
+    text-align: center;
+    background: #FAE60B;
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight: 600;
+    color:#000;
+    border-bottom: none;
+    
+}
+
+
+@media screen and (max-width: 900px) {
+    #main{
+        width: 600px; 
+        margin: 30px auto 80px auto;
+           
+    }
+    
+    .contenedor-text{
+        text-align: center;
+    
+    }
+    
+    #title {
+        font-size: 50px;
+        margin: 60px 0 30px 0;
+        font-weight: 800;
+        line-height: 1.1em;
+    }
+    .subtitle {
+        font-size: 35px;
+        font-weight: 800;
+        margin: 0 0 35px 0;
+    }
+
+    #tribute-info {
+        width: 600px;
+        flex-direction: column; 
+    }
+    
+    .copete {
+        width: auto;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        align-content: center;
+        
+        margin-bottom: 40px;
+
+        border: 1px green solid;
+                
+    }
+
+    .p-copete {
+        flex: 1;
+        font-size: 15px;
+        line-height: 18px;
+        border: 1px blue solid;
+
+    }
+    
+    .div-img-andy {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        align-items: center;       
+         
+        
+        border: 1px red solid;
+
+    }
+
+    .div-img-andy img {
+    
+        width: 100%;
+        height: auto;
+        
+    }
+
+    
+
+
+    @media screen and (max-width: 420px) {
+        #main{
+            width: 320px; 
+            margin: 25px auto 40px auto;
+        }
+
+        .volanta {
+            font-size: 13px;
+            text-align: left;
+                    
+        }
+
+        #title {
+            font-size: 35px;
+            text-align: left;
+            margin: 25px 0 10px 0;
+        }
+
+        .subtitle {
+            font-size: 22px;
+            text-align: right;
+            margin: 0 0 20px 0;
+        }
+    
+        #tribute-info {
+            width: 320px;
+        }
+
+        .copete {
+            width: 320px;
+            max-width: 350px;
+            flex-direction: column-reverse;
+            margin-bottom: 25px;
+        }
+    
+        .p-copete {
+            font-size: 14px;
+            line-height: 17px;
+            border: 1px blue solid;
+        }
+        
+        .div-img-andy img {
+            max-height: 240px;
+        }
+    
+        .main-text {
+            width: 320px;
+            font-size: 16px;
+        }
+
+        #img-div {
+            width: auto;
+            margin: 15px 0;
+        }
+
+        .cierre {
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        #tribute-link {
+            width: 120px;
+            font-size: 18px;
+            margin-top: 7px;
+        }
